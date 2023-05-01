@@ -116,7 +116,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:riesgot10</Layers>
+				<Layers>GH:riesgot5</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -126,7 +126,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:riesgot10</Layers>
+				<Layers>GH:riesgot5</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -136,7 +136,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:riesgot5</Layers>
+				<Layers>GH:riesgot10</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -146,32 +146,12 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:riesgot5</Layers>
+				<Layers>GH:riesgot10</Layers>
 				<Styles></Styles>
 			</TileSet>
 		</VendorSpecificCapabilities>
 		<UserDefinedSymbolization SupportSLD="1" UserLayer="1" UserStyle="1" RemoteWFS="1"></UserDefinedSymbolization>
 		<Layer>
-			<Layer queryable="1" opaque="0">
-				<Name>GH:riesgot10</Name>
-				<Title>riesgot10</Title>
-				<Abstract>GH:riesgot10 ABSTRACT</Abstract>
-				<KeywordList>
-					<Keyword>group˸tif˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
-				</KeywordList>
-				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="-82.162262" miny="22.036924000016626" maxx="-80.51234099999976" maxy="23.20545500001728"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="-82.162262" miny="22.036924" maxx="-80.51234099999999" maxy="23.205455"></BoundingBox>
-				<Style>
-					<Name>1</Name>
-					<Title>1</Title>
-					<Abstract></Abstract>
-					<LegendURL width="20" height="20">
-						<Format>image/png</Format>
-						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=riesgot10"></OnlineResource>
-					</LegendURL>
-				</Style>
-			</Layer>
 			<Layer queryable="1" opaque="0">
 				<Name>GH:riesgot5</Name>
 				<Title>riesgot5</Title>
@@ -189,6 +169,26 @@
 					<LegendURL width="20" height="20">
 						<Format>image/png</Format>
 						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=riesgot5"></OnlineResource>
+					</LegendURL>
+				</Style>
+			</Layer>
+			<Layer queryable="1" opaque="0">
+				<Name>GH:riesgot10</Name>
+				<Title>riesgot10</Title>
+				<Abstract>GH:riesgot10 ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group˸tif˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
+				</KeywordList>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox minx="-82.162262" miny="22.036924000016626" maxx="-80.51234099999976" maxy="23.20545500001728"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="-82.162262" miny="22.036924" maxx="-80.51234099999999" maxy="23.205455"></BoundingBox>
+				<Style>
+					<Name>1</Name>
+					<Title>1</Title>
+					<Abstract></Abstract>
+					<LegendURL width="20" height="20">
+						<Format>image/png</Format>
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=riesgot10"></OnlineResource>
 					</LegendURL>
 				</Style>
 			</Layer>
